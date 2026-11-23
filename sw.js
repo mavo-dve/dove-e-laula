@@ -1,6 +1,6 @@
 // Service worker: l'app e l'elenco delle aule funzionano anche offline.
 // Quando cambi un file dell'app, aumenta VERSIONE: i telefoni scaricheranno la nuova copia.
-const VERSIONE = "v1";
+const VERSIONE = "v2";
 const CACHE = `dove-e-laula-${VERSIONE}`;
 
 const FILE_APP = [
